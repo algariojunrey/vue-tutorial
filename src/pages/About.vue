@@ -1,9 +1,9 @@
+<script setup>
+import PageTitle from '../components/PageTitle.vue'
+</script>
+
 <template>
   <div class="container">
-    <Title title="About"></Title>
+    <page-title title="About"></page-title>
   </div>
 </template>
-
-<script setup>
-import Title from '../components/Title.vue'
-</script>
