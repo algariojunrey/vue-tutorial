@@ -3,9 +3,9 @@
     <div class="header">
       <h3>Learning Vue Js</h3>
       <nav>
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT US</a>
+        <router-link to="/">HOME</router-link>
+        <router-link to="/about">ABOUT</router-link>
+        <router-link to="/contact">CONTACT US</router-link>
       </nav>
     </div>
   </header>
